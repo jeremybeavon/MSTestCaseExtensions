@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <system.data>
+    <DbProviderFactories>
+      <add name="MSTest TestCase Provider" invariant="MSTestCaseExtensions" description=".NET Framework Data Provider for MSTestCaseExtensions" type="MSTestCaseExtensions.MSTestCaseDataProvider, MSTestCaseExtensions"/>
+    </DbProviderFactories>
+  </system.data>
+</configuration>

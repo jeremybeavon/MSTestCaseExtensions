@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>MSTestCaseExtensions</id>
+        <version>1.0.0</version>
+        <authors>Jeremy Beavon</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Allows usage of a TestCase attribute by using the DataSource attribute and PostSharp.</description>
+        <dependencies>
+            <dependency id="PostSharp" version="3.1.48" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="App.config.transform" target="content\App.config.transform" />
+        <file src="bin\Release\MSTestCaseExtensions.dll" target="lib\MSTestCaseExtensions.dll" />
+    </files>
+</package>
